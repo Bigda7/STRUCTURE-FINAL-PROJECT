@@ -1,0 +1,218 @@
+header {
+  width: 100%;
+  background-image: linear-gradient(
+      180deg,
+      rgba(20, 20, 20, 0.8) 78.8%,
+      #141414 100%
+    ),
+    url("/assets/images/first_bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Navigation {
+  padding: 50px;
+  justify-content: space-around;
+  display: flex;
+}
+
+.Menu {
+  display: flex;
+}
+
+.MenuItem {
+  margin-right: 40px;
+  color: var(--color-1);
+  font-family: "Reforma Grotesk Medium";
+  font-size: 24px;
+}
+
+button {
+  letter-spacing: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Hover {
+  transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
+  &:hover{
+    color: var(--color-2);
+    background-color: var(--color-1);
+  }
+}
+
+.TriPoloski {
+  padding: 5px;
+  width: 50px;
+  height: 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  .Top,
+  .Center,
+  .Bottom {
+    background-color: var(--color-2);
+  }
+  &:hover {
+    .Top,
+    .Bottom {
+      transform: translateX(-10px);
+      background-color: var(--color-1);
+    }
+  }
+  &:hover{
+    background-color: var(--color-2);
+  }
+  &:hover{
+    .Center{
+      transform: translateX(10px);
+      background-color: var(--color-1);
+    }
+  }
+}
+
+.Top {
+  background-color: var(--color-2);
+  height: 3px;
+  width: 40px;
+  margin-bottom: 8px;
+  margin-left: 10px;
+  border-radius: 5px;
+
+  transition: background-color 250ms ease-in-out, transform 250ms linear;
+}
+
+.Center {
+  background-color: var(--color-2);
+  height: 3px;
+  width: 40px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+
+  transition: background-color 250ms ease-in-out, transform 250ms linear;
+}
+
+.Bottom {
+  background-color: var(--color-2);
+  height: 3px;
+  width: 40px;
+  margin-bottom: 8px;
+  margin-left: 10px;
+  border-radius: 5px;
+
+  transition: background-color 250ms ease-in-out, transform 250ms linear;
+}
+
+.MainText {
+  margin-top: 260px;
+  animation: Rotate 6s ease-in-out 0s infinite normal;
+  transform-origin: center;
+  font-family: "Reforma Grotesk Bold";
+  font-size: 150px;
+  text-align: center;
+  color: var(--color-2);
+  display: inline-block;
+}
+
+.TextBlock {
+  display: flex;
+  justify-content: center;
+}
+
+@keyframes Rotate {
+  0% {
+    transform: rotateY(0deg);
+  }
+  25% {
+    transform: rotateY(180deg), scaleX(-1);
+  }
+  50% {
+    transform: rotateY(360deg);
+  }
+  75% {
+    transform: rotateY(180deg), scaleX(-1);
+  }
+  100% {
+    transform: rotateY(0deg);
+  }
+}
+
+.SquareLine {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 16px;
+}
+
+.Square {
+  height: 10px;
+  width: 10px;
+  background-color: var(--color-2);
+  transform: rotate(45deg);
+  margin-right: 23.93px;
+}
+
+.AfterMainText {
+  color: var(--color-1);
+  font-size: 40px;
+  text-align: center;
+  margin-top: 40.93px;
+}
+
+.Uslugi {
+  padding: 10px;
+  font-size: 24px;
+  text-align: center;
+  color: var(--color-2);
+  background-color: var(--color-1);
+  border-radius: 5px;
+  cursor: pointer;
+  
+  transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
+  &:hover{
+    background-color: var(--color-2);
+    color: var(--color-1);
+  }
+}
+
+.Contacts{
+  white-space: nowrap;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  border: solid;
+  border-width: 1px;
+  border-color: var(--color-3);
+}
+
+.ContactsBlock{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px 240px;
+  border: solid;
+  border-width: 0.5px;
+  border-color: var(--color-3);
+}
+
+.ContactsBlockText{
+  padding: 20px 230px;
+  border: solid;
+  border-width: 0.5px;
+  border-color: var(--color-3);
+}
+
+.ThirdColumn{
+  margin-top: 20px;
+}
+
+.White{
+  color: var(--color-1);
+  font-size: 18px;
+}
+
+.Red{
+  color: var(--color-2);
+  font-size: 24px;
+}
+
