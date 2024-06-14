@@ -5,7 +5,7 @@ header {
       rgba(20, 20, 20, 0.8) 78.8%,
       #141414 100%
     ),
-    url("/assets/images/first_bg.jpeg");
+    url("./first_bg.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -222,4 +222,5 @@ button {
   color: var(--color-2);
   font-size: 1.25rem;
 }
+
 

@@ -9,9 +9,9 @@
     .Adaptive {
         width: 1200px;
     }
-    .FirstMainBlock{
+    .FirstLine{
         display: flex;
-        flex-direction: column;
+        justify-content: center;
     }
 }
 
@@ -19,11 +19,25 @@
     .Adaptive{
         width: 1000px;
     }
+    .FirstLine{
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media (max-width:768px) {
     .Adaptive {
         width: 768px;
+    }
+    .FirstLine{
+        display: flex;
+        justify-content: center;
+    }
+    .Achievements{
+        text-align: center;
+    }
+    .TextAfterAchievements{
+        text-align: center;
     }
 }
 
@@ -45,5 +59,19 @@
     .Advantages{
         display: flex;
         flex-direction: column;
+    }
+    .Achievements{
+        text-align: center;
+    }
+    .TextAfterAchievements{
+        text-align: center;
+    }
+    .Iphone{
+        display: block;
+    }
+    .IphoneAdaptive{
+        display: flex;
+        justify-content: center;
+        gap: 10vw;
     }
 }

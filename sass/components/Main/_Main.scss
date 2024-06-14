@@ -128,6 +128,7 @@ main{
     color: var(--color-1);
     font-size: 1.5rem;
     font-family: "Reforma Grotesk Medium";
+    text-align: center;
 }
 
 .SquareLineThird{
@@ -297,6 +298,15 @@ main{
 .Kubok{
     max-width: 100%;
     height: auto;
+}
+
+.Iphone{
+    display: none;
+    cursor: pointer;
+    transition: filter 250ms ease-in-out;
+    &:hover{
+        filter: invert(100%);
+    }
 }
 
 
