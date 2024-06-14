@@ -9,6 +9,10 @@
     .Adaptive {
         width: 1200px;
     }
+    .FirstMainBlock{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media (max-width:1000px){
@@ -26,5 +30,20 @@
 @media (max-width:480px) {
     .Adaptive {
         width: 480px;
+    }
+    .FirstMainBlock{
+        display: flex;
+        flex-direction: column;
+    }
+    .Slider{
+        display: flex;
+        flex-direction: column;
+    }
+    .SliderHover{
+        display: none;
+    }
+    .Advantages{
+        display: flex;
+        flex-direction: column;
     }
 }

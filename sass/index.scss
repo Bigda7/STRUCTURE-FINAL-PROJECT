@@ -4,7 +4,7 @@
 @import "./components/Header/Header"; // header
 @import "./components/Main/Main"; // main
 @import "./components/Footer/Footer"; // footer
-@import url("./utils/_Media.scss");
+@import "./utils/Media";
 
 @font-face {
   font-family: "Reforma Grotesk Bold";
