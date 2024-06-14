@@ -12,6 +12,10 @@
   font-family: "Reforma Grotesk Demi";
 }
 
+html {
+  overflow-x: hidden;
+}
+
 input {
   outline: 0;
   -webkit-transition: border-color 0ms linear;
