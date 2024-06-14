@@ -10,7 +10,7 @@ input{
   border-color 0ms linear;
   color: 0ms linear;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 1.125rem;
   text-align: left;
   &:focus{
     color: var(--color-1);
@@ -21,11 +21,18 @@ input{
   }
 }
 
-::placeholder{
-  font-size: 18px;
-  text-align: left;
+input:focus::-webkit-input-placeholder {
+  color: transparent;
 }
 
+input::placeholder{
+  white-space:normal ;
+}
+
+::placeholder{
+  font-size: 1.125rem;
+  text-align: left;
+}
 
 li {
   list-style-type: none;
@@ -38,3 +45,5 @@ button {
   color: inherit;
   background-color: transparent;
 }
+
+

@@ -7,7 +7,7 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+    gap: 3vh;
 }
 
 input::-webkit-outer-spin-button,
@@ -22,19 +22,18 @@ input::-webkit-inner-spin-button {
     border: solid;
     border-color: var(--color-3);
     border-width: 1px;
-    padding: 15px 70px 15px 15px;
+    padding: 1.500vh 3.646vw 1.500vh 0.781vw;
 }
 
 .Send{
     border: none;
     color: var(--color-2);
     background-color: var(--color-1);
-    border-radius: 5px;
-    font-size: 24px;
-    padding: 10px;
+    border-radius: 0.500vh 0.260vw;
+    font-size: 1.5rem;
+    padding: 1vh 0.521vw;
     text-align: center;
     cursor: pointer;
-    border-radius: 5px;
 
     transition:
     background-color 250ms ease-in-out, color 250ms ease-in-out;
@@ -48,20 +47,20 @@ input::-webkit-inner-spin-button {
     display: flex;
     flex-direction: column;
     color: var(--color-1);
-    font-size: 16px;
-    gap: 10px;
+    font-size: 1rem;
+    gap: 1vh;
 }
 
 .LineEnd{
     width: 100%;
-    height: 1px;
+    height: 0.1vh;
     background-color: var(--color-3);
 }
 
 .Copyright{
     display: flex;
     align-items: center;
-    font-size: 16px;
+    font-size: 1rem;
     color: var(--color-3);
     text-align: center;
 }
@@ -73,8 +72,8 @@ input::-webkit-inner-spin-button {
 .FormList{
     display: flex;
     justify-content: center;
-    gap: 20px;
-    margin-top: 50px;
+    gap: 1.042vw;
+    margin-top: 5vh;
 }
 
 .InputSecond {
@@ -82,28 +81,28 @@ input::-webkit-inner-spin-button {
     color: var(--color-3);
     border: solid;
     border-color: var(--color-3);
-    border-width: 1px;
-    padding: 15px 235px 70px 15px;
+    border-width: 0.052vw;
+    padding: 1.500vh 12.240vw 7.000vh 0.781vw;
 }
 
 .FormListSecond {
     display: flex;
-    gap: 50px;
+    gap: 2.604vw;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 2vh;
 }
 
 .IconsList{
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 0.5vh;
 }
 
 .Icon{
     border: solid;
-    border-width: 1px;
+    border-width: 0.052vw;
     border-color: var(--color-3);
-    padding: 3px;
+    padding: 0.300vh 0.156vw;
     cursor: pointer;
     transition: filter 250ms ease-in-out;
         &:hover {
@@ -112,27 +111,27 @@ input::-webkit-inner-spin-button {
 }
 
 .AfterForm{
-    margin-top: 20px;
+    margin-top: 2vh;
     display: flex;
     text-align: center;
-    gap: 95px;
+    gap: 4.948vw;
 }
 
 .SecondRowAfterForm{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 1.042vw;
 }
 
 .Rows{
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 0.521vw;
 }
 
 .End{
     display: flex;
-    gap: 150px;
-    padding: 10px 0px 40px 0px;
+    gap: 7.813vw;
+    padding: 1vh 0vw 4vh 0vw;
 }

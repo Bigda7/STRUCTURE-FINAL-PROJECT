@@ -11,7 +11,7 @@ header {
 }
 
 .Navigation {
-  padding: 50px;
+  padding: 5.000vh 2.604vw;
   justify-content: space-around;
   display: flex;
 }
@@ -21,15 +21,15 @@ header {
 }
 
 .MenuItem {
-  margin-right: 40px;
+  margin-right: 2.083vw;
   color: var(--color-1);
   font-family: "Reforma Grotesk Medium";
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 button {
-  letter-spacing: 2px;
-  border-radius: 5px;
+  letter-spacing: 0.104vw;
+  border-radius: 0.500vh 0.260vw;
   cursor: pointer;
 }
 
@@ -42,10 +42,10 @@ button {
 }
 
 .TriPoloski {
-  padding: 5px;
-  width: 50px;
-  height: 25px;
-  border-radius: 5px;
+  padding: 0.500vh 0.260vw;
+  width: 2.604vw;
+  height: 2.500vh;
+  border-radius: 0.500vh 0.260vw;
   cursor: pointer;
   .Top,
   .Center,
@@ -55,7 +55,7 @@ button {
   &:hover {
     .Top,
     .Bottom {
-      transform: translateX(-10px);
+      transform: translateX(-0.521vw);
       background-color: var(--color-1);
     }
   }
@@ -64,7 +64,7 @@ button {
   }
   &:hover{
     .Center{
-      transform: translateX(10px);
+      transform: translateX(0.521vw);
       background-color: var(--color-1);
     }
   }
@@ -72,42 +72,42 @@ button {
 
 .Top {
   background-color: var(--color-2);
-  height: 3px;
-  width: 40px;
-  margin-bottom: 8px;
-  margin-left: 10px;
-  border-radius: 5px;
+  height: 0.300vh;
+  width: 2.083vw;
+  margin-bottom: 0.800vh;
+  margin-left: 0.521vw;
+  border-radius: 0.500vh 0.260vw;
 
   transition: background-color 250ms ease-in-out, transform 250ms linear;
 }
 
 .Center {
   background-color: var(--color-2);
-  height: 3px;
-  width: 40px;
-  margin-bottom: 8px;
-  border-radius: 5px;
+  height: 0.300vh;
+  width: 2.083vw;
+  margin-bottom: 0.800vh;
+  border-radius: 0.500vh 0.260vw;
 
   transition: background-color 250ms ease-in-out, transform 250ms linear;
 }
 
 .Bottom {
   background-color: var(--color-2);
-  height: 3px;
-  width: 40px;
-  margin-bottom: 8px;
-  margin-left: 10px;
-  border-radius: 5px;
+  height: 0.300vh;
+  width: 2.083vw;
+  margin-bottom: 0.800vh;
+  margin-left: 0.521vw;
+  border-radius: 0.500vh 0.260vw;
 
   transition: background-color 250ms ease-in-out, transform 250ms linear;
 }
 
 .MainText {
-  margin-top: 260px;
+  margin-top: 26.000vh;
   animation: Rotate 6s ease-in-out 0s infinite normal;
   transform-origin: center;
   font-family: "Reforma Grotesk Bold";
-  font-size: 150px;
+  font-size: 9.375rem;
   text-align: center;
   color: var(--color-2);
   display: inline-block;
@@ -140,7 +140,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 16px;
+  margin-left: 0.833vw;
 }
 
 .Square {
@@ -148,23 +148,23 @@ button {
   width: 10px;
   background-color: var(--color-2);
   transform: rotate(45deg);
-  margin-right: 23.93px;
+  margin-right: 1.246vw;
 }
 
 .AfterMainText {
   color: var(--color-1);
-  font-size: 40px;
+  font-size: 2.5rem;
   text-align: center;
-  margin-top: 40.93px;
+  margin-top: 4.093vh;
 }
 
 .Uslugi {
-  padding: 10px;
-  font-size: 24px;
+  padding: 1.000vh 0.521vw;
+  font-size: 1.5rem;
   text-align: center;
   color: var(--color-2);
   background-color: var(--color-1);
-  border-radius: 5px;
+  border-radius: 0.500vh 0.260vw;
   cursor: pointer;
   
   transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
@@ -176,12 +176,12 @@ button {
 
 .Contacts{
   white-space: nowrap;
-  margin-top: 30px;
+  margin-top: 3vh;
   display: flex;
   justify-content: space-around;
   text-align: center;
   border: solid;
-  border-width: 1px;
+  border-width: 0.052vw;
   border-color: var(--color-3);
 }
 
@@ -189,30 +189,30 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding: 20px 240px;
+  padding: 2vh 12.500vw;
   border: solid;
-  border-width: 0.5px;
+  border-width: 0.026vw;
   border-color: var(--color-3);
 }
 
 .ContactsBlockText{
-  padding: 20px 230px;
+  padding: 2vh 11.979vw;
   border: solid;
-  border-width: 0.5px;
+  border-width: 0.026vw;
   border-color: var(--color-3);
 }
 
 .ThirdColumn{
-  margin-top: 20px;
+  margin-top: 2vh;
 }
 
 .White{
   color: var(--color-1);
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 .Red{
   color: var(--color-2);
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 

@@ -13,71 +13,71 @@ main{
     flex-direction: column;
     justify-content: left;
     align-self: center;
-    gap: 40px;
+    gap: 4vh;
 }
 
 .SquareLineSecond {
     display: flex;
     justify-content: left;
-    margin-right: 16px;
+    margin-right: 0.833vw;
 }
 
 .Achievements{
-    font-size: 52px;
+    font-size: 3.25rem;
     color: var(--color-1);
 }
 
 .TextAfterAchievements{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: "Reforma Grotesk Medium";
     color: var(--color-1);
 }
 
 .Resh{
     color: var(--color-2);
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .Number{
     color: var(--color-2);
-    font-size: 52px;
+    font-size: 3.25rem;
 }
 
 .AchievementsText{
     color: var(--color-1);
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .ColumnSection{
     display: flex;
     justify-content: space-around;
-    margin-top: 20px;
+    margin-top: 2vh;
 }
 
 .ColumnBlock{
     border: solid;
     border-color: var(--color-3);
-    border-width: 0.5px;
+    border-width: 0.026vw;
     text-align: center;
-    padding: 20px;
+    padding: 2vh 1.042vw;
 }
 // 
 .Slider{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 1.563vw;
     text-align: center;
-    word-spacing: 2px;
-    letter-spacing: 0.5px;
-    margin-top: 50px;
+    word-spacing: 0.104vw;
+    letter-spacing: 0.026vw;
+    margin-top: 5vh;
 }
 
 .SliderText{
     color: var(--color-1);
-    font-size: 18px;
+    font-size: 1.125rem;
     background-color: var(--color-2);
-    border-radius: 5px;
+    border-radius: 0.500vh 0.260vw;
 }
 
 .SliderHover{
@@ -92,8 +92,8 @@ main{
 .Advantages{
     display: flex;
     justify-content: center;
-    gap: 210px;
-    margin-top: 50px;
+    gap: 10.938vw;
+    margin-top: 5vh;
 }
 
 .Paragraph{
@@ -111,60 +111,60 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 70px;
+    gap: 3.646vw;
     text-align: center;
 }
 
 .FirstLine{
     color: var(--color-1);
-    font-size: 32px;
+    font-size: 2rem;
     font-family: "Reforma Grotesk Medium";
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 1.042vw;
 }
 
 .SecondLine{
     color: var(--color-1);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: "Reforma Grotesk Medium";
 }
 
 .SquareLineThird{
     display: flex;
     justify-content: center;
-    margin-right: 16px;
-    margin-top: 50px;
+    margin-right: 0.833vw;
+    margin-top: 5.000vh;
 }
 
 .UnderImage{
     color: var(--color-1);
-    font-size: 18px;
-    letter-spacing: 1px;
+    font-size: 1.125rem;
+    letter-spacing: 0.052vw;
 }
 // 
 .ZagolovokUslugi{
     color: var(--color-1);
-    font-size: 24px;
+    font-size: 1.5rem;
     text-align: center;
 }
 
 .TextUslugi{
     color: var(--color-1);
-    font-size: 16px;
+    font-size: 1rem;
     text-align: center;
-    letter-spacing: 0.5px;
-    word-spacing: 1px;
+    letter-spacing: 0.026vw;
+    word-spacing: 0.052vw;
 }
 
 .MoreUslugi{
     color: var(--color-2);
-    font-size: 18px;
+    font-size: 1.125rem;
     background-color: var(--color-1);
-    padding: 10px;
+    padding: 1vh 0.521vw;
     cursor: pointer;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 0.500vh 0.260vw;
 
     transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
         &:hover {
@@ -178,27 +178,27 @@ main{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 50px;
-    margin-top: 50px;
+    gap: 5vh;
+    margin-top: 5vh;
 }
 
 .LineUslugi{
     display: flex;
-    gap: 75px;
+    gap: 3.906vw;
 }
 
 .MainUslugi{
     color: var(--color-1);
-    font-size: 52px;
+    font-size: 3.25rem;
     text-align: center;
 }
 
 .UslugiVybor{
     color: var(--color-2);
     background-color: var(--color-1);
-    border-radius: 5px;
-    padding: 20px;
-    font-size: 32px;
+    border-radius: 0.500vh 0.260vw;
+    padding: 2vh 1.042vw;
+    font-size: 2rem;
     text-align: center;
     cursor: pointer;
 
@@ -214,15 +214,15 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 16px;
-    margin-top: 40px;
+    margin-left: 0.833vw;
+    margin-top: 4vh;
 }
 
 .MainBlockUslugi{
     display: flex;
     justify-content: center;
-    gap: 20px;
-    margin-top: 20px;
+    gap: 1.042vw;
+    margin-top: 2vh;
 }
 
 .BlockUslugi{
@@ -230,37 +230,37 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 2vh;
     border: solid;
-    border-width: 1px;
+    border-width: 0.052vw;
     border-color: var(--color-3);
-    padding: 76px;
+    padding: 7.600vh 3.958vw;
 }
 
 .ZagolovokUslugi {
     color: var(--color-1);
-    font-size: 24px;
+    font-size: 1.5rem;
     text-align: center;
 }
 
 .Image{
-    border-radius: 5px;
+    border-radius: 0.500vh 0.260vw;
 }
 // 
 
 .OurWorks{
-    margin-top: 50px;
+    margin-top: 5vh;
 }
 
 .Table{
-    margin: 0px 10px;
+    margin: 0vh 0.521vw;
 }
 
 .FirstRow{
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: repeat(6, 16.6%);
-    margin-top: 50px;
+    margin-top: 5vh;
     justify-content: center;
     overflow: hidden;
 }
@@ -283,7 +283,7 @@ main{
 
 .Animation{
     overflow: hidden;
-    margin: 5px;
+    margin: 0.500vh 0.260vw;
     transition: transform 250ms ease-in-out;
     &:hover{
         transform: scale(1.05);
@@ -294,7 +294,10 @@ main{
     transform: scaleX(-1);
 }
 // 
- 
+.Kubok{
+    max-width: 100%;
+    height: auto;
+}
 
 
 
